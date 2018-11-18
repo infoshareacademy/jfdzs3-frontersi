@@ -10,3 +10,8 @@ Paleta kolorów:
 https://color.adobe.com/paleta-2-color-theme-11596088/?showPublished=true
 
 Logo: Pomarańczowy pies trzymający klucze w pyszczku
+
+DOD:
+1. Zgodność z szatą graficzną.
+2. Sprawdzenie kodu przez drugą osobę z zespołum sprawdzenie czy dany element działa na Chromie i Firefoxie i czy strona jest responsywna na telefonach.
+3. Commitowanie wszystkich zmian z komentarzami.
