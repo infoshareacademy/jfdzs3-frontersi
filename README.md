@@ -24,7 +24,7 @@ Możlwość dodania ogłoszenia o zgubie, razem z opisem i zdjęciem + danymi do
 Paleta kolorów:
 https://color.adobe.com/paleta-2-color-theme-11596088/?showPublished=true
 
-Logo: Pomarańczowy pies trzymający klucze w pyszczku
+Logo: Pomarańczowy pies trzymający klucze w pyszczku  :dog2:
 
 ## DOD:
 1. Zgodność z szatą graficzną.
