@@ -1,4 +1,4 @@
-# jfdzs3-frontersi
+# jfdzs3-frontersi :trollface:
 
 ## Nazwa zespołu
 Frontersi
