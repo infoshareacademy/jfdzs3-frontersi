@@ -15,12 +15,14 @@ Możlwość dodania ogłoszenia o zgubie, razem z opisem i zdjęciem + danymi do
 ## Lista członków grupy
 Sonia, Tomek, Krzysiek, Kacper i Radek
 
+## Identyfikacja projektu
+
 Paleta kolorów:
 https://color.adobe.com/paleta-2-color-theme-11596088/?showPublished=true
 
 Logo: Pomarańczowy pies trzymający klucze w pyszczku
 
-DOD:
+## DOD:
 1. Zgodność z szatą graficzną.
 2. Sprawdzenie kodu przez drugą osobę z zespołum sprawdzenie czy dany element działa na Chromie i Firefoxie i czy strona jest responsywna na telefonach.
 3. Commitowanie wszystkich zmian z komentarzami.
