@@ -1,3 +1,63 @@
-body{
-box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-icon{
+    overflow: hidden;
+
+}
+
+.icon{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+@media (max-width: 800px) {
+    .icon {
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .icon {
+        width: 100%;
+    }
+}
+    
+    
+
+.img{
+    max-width:70%;
+    max-height:70%;
+    margin: 15%;
+
+}
+
+@media (max-width: 800px) {
+    .img {
+        max-width:60%;
+        max-height:60%;
+        margin: 35px 20%;
+    }
+}
+
+@media (max-width: 450px) {
+    .img {
+        max-width:50%;
+        max-height:50%;
+        margin: 25px 25%;
+    }
+}
+
+.img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
