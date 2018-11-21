@@ -6,7 +6,7 @@
 }
 
 
-.wrapper {
+.conteiner {
     width: 1280px;
     margin: 0 auto;
 }
@@ -58,6 +58,11 @@ header {
 /* header end */
 
 /* section 1 -promo */
+
+.wrapper{
+
+}
+
 .promo {
     margin: 0 auto;
     height: 700px;
@@ -96,8 +101,8 @@ header {
 
 /* section 1 -promo end*/
 
-/* section-icon start */
-.section-icon{
+/* icons start */
+.section-icons{
     overflow: hidden;
 
 }
@@ -149,3 +154,4 @@ header {
     transform: scale(1.1);
     cursor: pointer;
 }
+/* icons end */
