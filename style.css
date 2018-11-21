@@ -5,7 +5,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-
 .conteiner {
     width: 1280px;
     margin: 0 auto;
@@ -23,7 +22,6 @@ header {
     width: 150px;
     margin-left: 100px;
     margin-top:-5px;
-
 }
 
 
@@ -45,23 +43,15 @@ header {
     padding: 10px;
     text-transform: uppercase;
     cursor: pointer;
-
-
-
 }
 
 .menu__item:hover {
     font-weight: 500;
-
 }
 
 /* header end */
 
-/* section 1 -promo */
-
-.wrapper{
-
-}
+/* promo */
 
 .promo {
     margin: 0 auto;
@@ -70,7 +60,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .promo__textbox {
@@ -85,8 +74,6 @@ header {
     font-size: 48px;
     color: white;
     text-transform: uppercase;
-
-
 }
 
 .promo__text {
@@ -99,35 +86,32 @@ header {
     font-weight: 300;
 }
 
-/* section 1 -promo end*/
+/* promo end */
 
 /* icons start */
-.section-icons{
+.section__icons{
     overflow: hidden;
-
 }
 
-.icon{
+.icons__div{
     display: block;
     float: left;
     width: 25%;
 }
 
 @media (max-width: 800px) {
-    .icon {
+    .icons__div {
         width: 50%;
     }
 }
 
 @media (max-width: 450px) {
-    .icon {
+    .icons__div {
         width: 100%;
     }
 }
     
-    
-
-.img{
+.icons__img{
     max-width:70%;
     max-height:70%;
     margin: 15%;
@@ -135,7 +119,7 @@ header {
 }
 
 @media (max-width: 800px) {
-    .img {
+    .icons__img {
         max-width:60%;
         max-height:60%;
         margin: 35px 20%;
@@ -143,15 +127,27 @@ header {
 }
 
 @media (max-width: 450px) {
-    .img {
+    .icons__img {
         max-width:50%;
         max-height:50%;
         margin: 25px 25%;
     }
 }
 
-.img:hover {
+.icons__img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 /* icons end */
+
+/* start */
+/* end */
+
+/* start */
+/* end */
+
+/* start */
+/* end */
+
+/* start */
+/* end */
