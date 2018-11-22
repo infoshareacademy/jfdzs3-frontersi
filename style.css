@@ -140,8 +140,53 @@ header {
 }
 /* icons end */
 
-/* start */
-/* end */
+/* form start */
+
+
+
+.form{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: #bdd3de;
+    color:#2b3a42;
+    border: 2px double;
+    border-radius: 10px;
+    border-color: #2b3a42;
+    
+
+}
+
+.form p{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  
+}
+
+.form__email{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 5px;
+    
+}
+
+.form__submit{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 0;
+    background-color: #f0f0df;
+    font-size: 15px;
+    color:#2b3a42;
+    font-weight: 600;
+}
+
+
+/* form end */
 
 /* start */
 /* end */
