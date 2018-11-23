@@ -138,25 +138,41 @@ header {
     transform: scale(1.1);
     cursor: pointer;
 }
-/* icons end */
 
-/* form start */
-
-
-
-.form{
-    margin: 0 auto;
-    width: 50%;
+.first-person {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 17px;
     text-align: center;
-    background-color: #bdd3de;
-    color:#2b3a42;
-    border: 2px double;
-    border-radius: 10px;
-    border-color: #2b3a42;
-    
-
+    padding-right: 15px;
 }
 
+
+.second-person {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.third-person {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.fourth-person {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+<<<<<<< HEAD
 .form p{
     display: block;
     padding: 20px;
@@ -173,9 +189,20 @@ header {
     font-weight: 400;
     margin-right: 5px;
     border-radius: 10px;
+=======
+.fifth-person {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 15px;
+
+>>>>>>> 4eb75f73fa9b634b9cb257b5800478e8f953337a
     
+
 }
 
+<<<<<<< HEAD
 .form__submit{
     padding: 20px;
     margin: 20px;
@@ -185,16 +212,69 @@ header {
     font-size: 15px;
     color:#f0f0df;
     font-weight: 600;
+=======
+
+.Kacper-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-position: center;
+    background-size: 100%;
+    
+        
+>>>>>>> 4eb75f73fa9b634b9cb257b5800478e8f953337a
 }
 
+.Tomasz-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-position: center;
+    background-size: 100%;
+       
+}
 
-/* form end */
+.Sonia-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-position: center;
+    background-size: 100%;
+    
+        
+}
 
-/* start */
-/* end */
+.Krzysztof-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-position: center;
+    background-size: 100%;
+      
+}
 
-/* start */
-/* end */
+.Radoslaw-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-position: center;
+    background-size: 100%;
+    
+    
+        
+}
 
-/* start */
-/* end */
+.section-about-us {
+    text-align: center;
+    margin-bottom: 90px;
+}
