@@ -172,7 +172,6 @@ header {
     padding-right: 15px;
 }
 
-<<<<<<< HEAD
 .form p{
     display: block;
     padding: 20px;
@@ -189,7 +188,6 @@ header {
     font-weight: 400;
     margin-right: 5px;
     border-radius: 10px;
-=======
 .fifth-person {
     display: inline-block;
     line-height: 20px;
@@ -197,12 +195,10 @@ header {
     text-align: center;
     padding-right: 15px;
 
->>>>>>> 4eb75f73fa9b634b9cb257b5800478e8f953337a
     
 
 }
 
-<<<<<<< HEAD
 .form__submit{
     padding: 20px;
     margin: 20px;
@@ -212,7 +208,6 @@ header {
     font-size: 15px;
     color:#f0f0df;
     font-weight: 600;
-=======
 
 .Kacper-photo{
     width: 100px;
@@ -224,7 +219,6 @@ header {
     background-size: 100%;
     
         
->>>>>>> 4eb75f73fa9b634b9cb257b5800478e8f953337a
 }
 
 .Tomasz-photo{
