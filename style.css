@@ -171,23 +171,6 @@ header {
     text-align: center;
     padding-right: 15px;
 }
-
-.form p{
-    display: block;
-    padding: 20px;
-    margin: 20px;
-    font-size: 25px;
-    font-weight: 600;
-  
-}
-
-.form__email{
-    padding: 20px;
-    margin: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    margin-right: 5px;
-    border-radius: 10px;
 .fifth-person {
     display: inline-block;
     line-height: 20px;
@@ -198,17 +181,6 @@ header {
     
 
 }
-
-.form__submit{
-    padding: 20px;
-    margin: 20px;
-    margin-left: 0;
-    border-radius: 10px;
-    background-color: #2b3a42;
-    font-size: 15px;
-    color:#f0f0df;
-    font-weight: 600;
-
 .Kacper-photo{
     width: 100px;
     height: 100px;
@@ -217,8 +189,7 @@ header {
     -moz-border-radius: 150px;
     background-position: center;
     background-size: 100%;
-    
-        
+         
 }
 
 .Tomasz-photo{
@@ -272,3 +243,46 @@ header {
     text-align: center;
     margin-bottom: 90px;
 }
+
+.form{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: #bdd3de;
+    color:#2b3a42;
+    border: 2px double;
+    border-radius: 10px;
+    border-color: #2b3a42;
+    margin-bottom: 20px;
+}
+
+.form p{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+.form__email{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+
+.form__submit{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 0;
+    border-radius: 10px;
+    background-color: #2b3a42;
+    font-size: 15px;
+    color:#f0f0df;
+    font-weight: 600;
+}
+
+
