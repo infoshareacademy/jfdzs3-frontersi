@@ -172,6 +172,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-right: 5px;
+    border-radius: 10px;
     
 }
 
@@ -179,9 +180,10 @@ header {
     padding: 20px;
     margin: 20px;
     margin-left: 0;
-    background-color: #f0f0df;
+    border-radius: 10px;
+    background-color: #2b3a42;
     font-size: 15px;
-    color:#2b3a42;
+    color:#f0f0df;
     font-weight: 600;
 }
 
