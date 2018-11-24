@@ -286,3 +286,31 @@ header {
 }
 
 
+.footer{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #2B3A42;
+    color: #F0F0DF;
+    height: 50px;
+    padding: 20px;
+
+}
+
+.footer-nav{
+    margin: 0, auto;
+    height: 30px;
+    background: #2B3A42;
+    font-size: 25px;
+    float: right;
+    line-height: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #FF8F00;
+}
+a.footer-nav, a:visited{
+    text-decoration: none;
+    color: #FF8F00;
+}
