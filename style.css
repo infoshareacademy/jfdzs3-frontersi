@@ -265,6 +265,7 @@ header {
 .about-us{
     display: flex;
     flex-direction: row;
+    
 }
 
 .text__about-us{
