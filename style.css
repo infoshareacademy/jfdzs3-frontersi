@@ -40,7 +40,7 @@ header {
     font-weight: 300;
     display: inline-block;
     letter-spacing: 1.2px;
-    padding: 10px;
+ 
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -300,6 +300,9 @@ header {
     margin: auto 0;
     display: block;
 }
+.bullet{
+    clear:both;
+}
 
 .text__info{
 text-align: center;
@@ -323,18 +326,17 @@ font-size: 1.4rem;
 }
 
 .text__mobile{
-position: absolute;
+padding-top:65px;
 color: #2B3A42;
 width: inherit;
-padding: 0%;
 font-size: 20px;
-margin-top: -35px;
 text-align: center;
 }
 
 .fa_mobile{
-margin: 3%;
+float:left;
 width: 20%;
+background: pink;
 padding: 5%;
 }
 
@@ -345,7 +347,7 @@ background: #FF8F00;
 width: auto;
 color: #2B3A42;
 margin: 30px;
-margin-left: 120px;
+margin-left: 160px;
 }
 
 /* end */
