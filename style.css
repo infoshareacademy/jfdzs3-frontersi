@@ -66,11 +66,11 @@ header {
 
     background-color: rgba(43, 58, 66, 0.6);
     display: inline-block;
-    margin: 100px;
+    margin: 500px 100px;
 }
 
 .promo__h1 {
-    text-align: center;
+ 
     font-size: 48px;
     color: white;
     text-transform: uppercase;
@@ -274,7 +274,7 @@ header {
 
 .form{
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     text-align: center;
     background-color: #bdd3de;
     color:#2b3a42;
@@ -371,7 +371,7 @@ margin-left: 160px;
 /* end */
 
 .footer{
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 100px;
     background-color: #2B3A42;
@@ -386,7 +386,7 @@ margin-left: 160px;
     margin: 0, auto;
     height: 30px;
     background: #2B3A42;
-    font-size: 25px;
+    font-size: 16px;
     float: right;
     line-height: 15px;
 }
