@@ -56,7 +56,12 @@
 
 }
 
-.fas {
+/* .fas {
+    padding: 0px 5px;
+    font-size: 20px;
+    color: #FF8F00;
+} */
+.fa-cat, .fa-dog, .fa-key, .fa-wallet{
     padding: 0px 5px;
     font-size: 20px;
     color: #FF8F00;
