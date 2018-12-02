@@ -441,7 +441,7 @@
     line-height: 15px;
 }
 
-a {
+a.footer-nav {
     text-decoration: none;
     color: #FF8F00;
 }
