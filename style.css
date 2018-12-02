@@ -391,6 +391,8 @@
 .li {
     padding-bottom: 20px;
     font-size: 1.4rem;
+    padding-left: 15px;
+    margin-bottom: 10px;
 }
 
 .text__mobile {
