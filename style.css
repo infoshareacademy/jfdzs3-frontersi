@@ -13,11 +13,12 @@
 /* header */
 
 .header__logo {
-
-    width: 90px;
-
+    
+    width: 200px;
 }
-
+.orange-btn{
+    color: #FF8F00;
+}
 .orange-btn:hover {
     background-color: #FF8F00;
     color: #fff;
@@ -56,11 +57,6 @@
 
 }
 
-/* .fas {
-    padding: 0px 5px;
-    font-size: 20px;
-    color: #FF8F00;
-} */
 .fa-cat, .fa-dog, .fa-key, .fa-wallet{
     padding: 0px 5px;
     font-size: 20px;
@@ -447,7 +443,7 @@
     line-height: 15px;
 }
 
-a.footer-nav {
+.footer-nav a {
     text-decoration: none;
     color: #FF8F00;
 }
