@@ -68,24 +68,8 @@
 /* icons start */
 .section__icons {
     overflow: hidden;
-}
-
-.icons__div {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-@media (max-width: 800px) {
-    .icons__div {
-        width: 50%;
-    }
-}
-
-@media (max-width: 450px) {
-    .icons__div {
-        width: 100%;
-    }
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .icons__img {
@@ -95,26 +79,12 @@
 
 }
 
-@media (max-width: 800px) {
-    .icons__img {
-        max-width: 60%;
-        max-height: 60%;
-        margin: 35px 20%;
-    }
-}
-
-@media (max-width: 450px) {
-    .icons__img {
-        max-width: 50%;
-        max-height: 50%;
-        margin: 25px 25%;
-    }
-}
-
 .icons__img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+/* icons end */
 
 .first-person {
     display: inline-block;
