@@ -66,8 +66,10 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 50% 0;
+    display:block;
+
     width: 400px;
+    height:85px;
     background-size: 100%, 100%;
     background-image: none;
 }
@@ -80,16 +82,11 @@
     margin-left: 50px;
 }
 
-@media screen and (max-width: 580px) {
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        height: 70%;
-
-    }
-}
 
 .carousel-control-next-icon:after {
+    display:block;
+    padding:0;
+    margin:0;
     content: '>';
     font-size: 85px;
     font-weight: 900;
