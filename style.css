@@ -104,11 +104,13 @@
     .carousel-control-next-icon:after {
         font-size: 55px;
         margin: 0;
+        padding-right:30px;
     }
 
     .carousel-control-prev-icon:after {
         font-size: 55px;
         margin: 0;
+        padding-left:30px;
     }
 }
 
