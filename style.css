@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: Lato;
 }
+:root {
+    --ratio: 14 / 16;
+    --width: 98vmin;
+    --height: calc(var(--width) * var(--ratio));
+  }
 
 .wrapper {
     max-width: 1280px;
@@ -43,27 +48,30 @@
 
 /* slider */
 .carousel {
-    /* max-height: 600px; */
-    margin-bottom: 60px;
     background: #fff;
+    
 }
 
 .carousel-caption {
     background-color: rgba(43, 58, 66, 0.6);
-    /* bottom: 33%;*/
-    padding: 60px 20px;
+    bottom: 35%;
+    height:100px;
+    width:500px;
+    margin: 0 auto;
     text-transform: uppercase;
 }
 
 .carousel-inner {
-    width: 100%;
     margin: 0 auto;
-}
+    height: var(--height);
+  
 
-@media screen and (min-width: 1280px) {
-    .carousel-inner img {
-     width: 100%;
-    }
+}
+.carousel-inner img{
+    
+    display: block;
+   
+      
 }
 
 .carousel-control-prev-icon,
