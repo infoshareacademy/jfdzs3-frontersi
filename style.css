@@ -315,140 +315,43 @@ margin-right: 20px;
 }
 
 /* about-us */
-.first-person {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 17px;
-    text-align: center;
-    padding-right: 15px;
-    margin-bottom: 150px;
-}
-
-
-.second-person {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 17px;
-    text-align: center;
-    padding-right: 15px;
-}
-
-.third-person {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 17px;
-    text-align: center;
-    padding-right: 15px;
-}
-
-.fourth-person {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 17px;
-    text-align: center;
-    padding-right: 15px;
-}
-
-.fifth-person {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 17px;
-    text-align: center;
-    padding-right: 15px;
-
-
-
-}
-
-.Kacper-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    background-position: center;
-    background-size: 100%;
-    border-color: #2B3A42;
-    border-style: solid;
+.aboutUsPhoto img{
+    width: 100%;
+    height:auto;
+    max-width: 150px;
+    min-width: 70px;
     margin-bottom: 20px;
-
-}
-
-.Tomasz-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background-position: center;
-    background-size: 100%;
-    border-color: #2B3A42;
-    border-style: solid;
-    margin-bottom: 20px;
-
-}
-
-.Sonia-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background-position: center;
-    background-size: 100%;
-    border-color: #2B3A42;
-    border-style: solid;
-    margin-bottom: 20px;
-
-
-}
-
-.Krzysztof-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background-position: center;
-    background-size: 100%;
-    border-color: #2B3A42;
-    border-style: solid;
-    margin-bottom: 20px;
-
-}
-
-.Radoslaw-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background-position: center;
-    background-size: 100%;
-    border-color: #2B3A42;
-    border-style: solid;
-    margin-bottom: 20px;
-
-
-
-}
-
-.section-about-us {
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    font-weight: bold;
-    font-size: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #3F5866;
+    
 }
 
 .about-us {
-    display: flex;
-    flex-direction: row;
-
+    margin-bottom: 70px;
 }
+
 
 .text__about-us {
     margin: 10px;
+    text-align: justify;
+    font-family: Lato;
+}
+
+.namePhoto{
+    padding-right: 15px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.section-about-us {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-size: 32px;
 }
 
 /* info */
