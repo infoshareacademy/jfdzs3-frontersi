@@ -201,53 +201,11 @@ margin-right: 20px;
     cursor: pointer;
 }
 
-/*
-.form{
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    background-color: #bdd3de;
-    color:#2b3a42;
-    border: 2px double;
-    border-radius: 10px;
-    border-color: #2b3a42;
-    margin-bottom: 20px;
-}
-
-.form p{
-    display: block;
-    padding: 20px;
-    margin: 20px;
-    font-size: 25px;
-    font-weight: 600;
-  }
-
-.form__email{
-    padding: 20px;
-    margin: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    margin-right: 5px;
-    border-radius: 10px;
-}
-
-
-.form__submit{
-    padding: 20px;
-    margin: 20px;
-    margin-left: 0;
-    border-radius: 10px;
-    background-color: #2b3a42;
-    font-size: 15px;
-    color:#f0f0df;
-    font-weight: 600;
-}
-*/
 
 /* form */
 .parent-wrapper {
     position: relative;
-    width: 800px;
+    width: 750px;
     height: 270px;
     margin: 40px auto 0;
     background-color: #2B3A42;
@@ -262,6 +220,7 @@ margin-right: 20px;
 
 }
 
+
 .subscribe-wrapper {
     position: absolute;
     left: -30px;
@@ -272,6 +231,27 @@ margin-right: 20px;
     border-radius: 4px;
     color: #333;
     box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 800px){
+    .parent-wrapper{ 
+        width: 80%;
+        height: 270px;
+    }
+     
+}
+
+@media screen and (max-width: 400px){
+    .parent-wrapper{ 
+        width: 80%;
+        height: 260px;
+    }
+    .subscribe-wrapper {
+        height: 200px;
+        padding: 10px;
+        font-size: 10px;
+        line-height: 15px;
+    } 
+    
 }
 
 .subscribe-wrapper h4 {
@@ -412,25 +392,31 @@ margin-right: 20px;
 }
 
 /* footer */
-.footer {
+
+.footer-container{
     width: 100%;
+    display: inline-block;
     margin: 0 auto;
     margin-top: 100px;
     background-color: #2B3A42;
     color: #F0F0DF;
     height: 50px;
     padding: 20px;
+    line-height: 15px;
+}
+.footer {
+    padding: 0;
+    margin: 0, auto;
     float: left;
-
 }
 
 .footer-nav {
     margin: 0, auto;
-    height: 30px;
     background: #2B3A42;
     font-size: 16px;
     float: right;
     line-height: 15px;
+    text-align: center;
 }
 
 .footer-nav a {
@@ -442,4 +428,16 @@ a.footer-nav,
 a:visited {
     text-decoration: none;
     color: #FF8F00;
+}
+@media screen and (max-width: 320px){
+    .footer-container {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer-nav {
+        width: 100%;
+        text-align: center;
+    }
+
 }
