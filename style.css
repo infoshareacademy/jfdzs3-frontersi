@@ -308,9 +308,11 @@ margin-right: 20px;
     
 }
 
-.about-us {
-    margin-bottom: 70px;
+#about-us {
+    margin-bottom: 10%;
+    padding-left: 15%;
 }
+
 
 
 .text__about-us {
@@ -328,10 +330,11 @@ margin-right: 20px;
 
 }
 .section-about-us {
-    text-align: center;
+    padding-left: 41%;
     margin-top: 10%;
     margin-bottom: 7%;
     font-size: 32px;
+    
 }
 
 /* info */
