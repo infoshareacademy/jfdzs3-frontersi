@@ -163,7 +163,7 @@ margin-right: 20px;
 /* icons start */
 .section__icons {
     overflow: hidden;
-    margin: 150px 0;
+    margin: 100px;
 }
 
 .icons__div {
@@ -203,6 +203,8 @@ margin-right: 20px;
 
 
 /* form */
+
+
 .parent-wrapper {
     position: relative;
     width: 750px;
@@ -295,7 +297,25 @@ margin-right: 20px;
 }
 
 /* about-us */
+@media screen and (min-width: 900px){
+    #about-us{
+        padding:100px;
+    }
+    }
 
+.container{
+    margin:0 auto;
+ 
+}
+.row{
+    margin:0 auto;
+}
+.col-12{
+    margin:0 auto;
+}
+.pad-bot{
+    padding-bottom:30px;
+}
 .aboutUsPhoto img{
     width: 100%;
     height:auto;
@@ -309,10 +329,7 @@ margin-right: 20px;
     
 }
 
-#about-us {
-    margin-bottom: 10%;
-    padding-left: 15%;
-}
+
 
 
 
@@ -330,13 +347,7 @@ margin-right: 20px;
 
 
 }
-.section-about-us {
-    padding-left: 41%;
-    margin-top: 10%;
-    margin-bottom: 7%;
-    font-size: 32px;
-    
-}
+
 
 /* info */
 
@@ -355,10 +366,13 @@ margin-right: 20px;
 
 .text__info {
     text-align: center;
-    padding-top: 20px;
+    margin:20px;
+    left:0;
+    right:0;
+    text-transform: uppercase;
     color: #2B3A42;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 33px;
 }
 
 .btn-link{
@@ -447,4 +461,9 @@ a:visited {
         text-align: center;
     }
 
+}
+@media screen and (min-width: 900px){
+#info{
+    min-height:600px;
+}
 }
