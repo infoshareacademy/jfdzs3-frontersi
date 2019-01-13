@@ -163,30 +163,7 @@ margin-right: 20px;
 /* icons start */
 .section__icons {
     overflow: hidden;
-    margin: 100px;
-}
-
-.icons__div {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-@media (max-width: 800px) {
-    .icons__div {
-        width: 50%;
-    }
-
-    .section__icons {
-
-        margin: 0;
-    }
-}
-
-@media (max-width: 450px) {
-    .icons__div {
-        width: 100%;
-    }
+    margin: 0 auto 100px;
 }
 
 .icons__img {
