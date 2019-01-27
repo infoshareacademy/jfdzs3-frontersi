@@ -34,7 +34,7 @@ function renderDogTheCatcherGame() {
     gameContainer.classList.add('game-container-show');
    
     setTimeout(function () {
-
+        
         function findPos(obj) {
             var curtop = 0;
             if (obj.offsetParent) {
@@ -49,6 +49,6 @@ function renderDogTheCatcherGame() {
 
 
 
-      }, 1000);
+      }, 500);
 
 }
