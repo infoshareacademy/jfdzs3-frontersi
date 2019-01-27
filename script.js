@@ -27,28 +27,69 @@ submitBtn.addEventListener('click', () => {
     } else(
         renderDogTheCatcherGame());
 });
+// smoothly window scroll function
+function scrollIt(element) {  
+    window.scrollTo({
+      'behavior': 'smooth',
+      'left': 0,
+      'top': element.offsetTop
+    });
+  }
+//
+const nav1 = document.querySelector('#nav1'); 
+const nav2 = document.querySelector('#nav2');
+const nav3 = document.querySelector('#nav3');
+console.log(nav1);
+console.log(nav2);
+console.log(nav3);
+
+const aboutUs = document.querySelector('#about-us'); 
+const info = document.querySelector('#info');
+const contact = document.querySelector('#footer');
+const form = document.querySelector('#form');
+
+console.log(aboutUs);
+console.log(info);
+console.log(contact);
+nav1.addEventListener('click', ()=>{
+
+ scrollIt(aboutUs);
+});
+
+nav2.addEventListener('click', ()=>{
+
+    scrollIt(info);
+   });
+
+nav3.addEventListener('click', ()=>{
+
+    scrollIt(contact);
+   });
+
+nav4.addEventListener('click', ()=>{
+
+    scrollIt(form);
+   });
+
 
 function renderDogTheCatcherGame() {
     const gameContainer = document.querySelector('#game');
     gameContainer.classList.remove('hidden');
     gameContainer.classList.add('game-container-show');
-   
-    setTimeout(function () {
-        
-        function findPos(obj) {
-            var curtop = 0;
-            if (obj.offsetParent) {
-                do {
-                    curtop += obj.offsetTop;
-                } while (obj = obj.offsetParent);
-            return [curtop];
-            }
-        }
 
-        window.scroll(0,findPos(gameContainer));
-
-
-
-      }, 500);
-
+    scrollIt(gameContainer);
 }
+    // setTimeout(function () {
+        
+    //     function findPos(obj) {
+    //         var curtop = 0;
+    //         if (obj.offsetParent) {
+    //             do {
+    //                 curtop += obj.offsetTop;
+    //             } while (obj = obj.offsetParent);
+    //         return [curtop];
+    //         }
+    //     }
+    // //     window.scroll(0,findPos(gameContainer));
+    //   }, 500);
+

@@ -292,7 +292,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     min-height: 800px;
-    ;
 }
 
 .hidden {
@@ -301,7 +300,6 @@ body {
 
 .my-red-alert {
     font-size: 17px;
-    width:99%;
     font-weight: 300;
 }
 
