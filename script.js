@@ -7,7 +7,10 @@ validationAlert.classList.add('my-red-alert');
 validationAlert.classList.add('alert-danger');
 validationAlert.innerText = 'Proszę wprowadzić prawidłowy adres email!';
 
+
+
 submitBtn.addEventListener('click', () => {
+    event.preventDefault();
 
     const emailInput = document.querySelector('.subscribe-input');
     const filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -29,5 +32,23 @@ function renderDogTheCatcherGame() {
     const gameContainer = document.querySelector('#game');
     gameContainer.classList.remove('hidden');
     gameContainer.classList.add('game-container-show');
+   
+    setTimeout(function () {
+
+        function findPos(obj) {
+            var curtop = 0;
+            if (obj.offsetParent) {
+                do {
+                    curtop += obj.offsetTop;
+                } while (obj = obj.offsetParent);
+            return [curtop];
+            }
+        }
+
+        window.scroll(0,findPos(gameContainer));
+
+
+
+      }, 1000);
 
 }
