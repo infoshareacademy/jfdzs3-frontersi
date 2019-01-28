@@ -47,6 +47,7 @@ const aboutUs = document.querySelector('#about-us');
 const info = document.querySelector('#info');
 const contact = document.querySelector('#footer');
 const form = document.querySelector('#form');
+const header = document.querySelector('#header');
 
 console.log(aboutUs);
 console.log(info);
@@ -69,6 +70,14 @@ nav3.addEventListener('click', ()=>{
 nav4.addEventListener('click', ()=>{
 
     scrollIt(form);
+   });
+   nav5.addEventListener('click', ()=>{
+
+    scrollIt(aboutUs);
+   });
+   nav6.addEventListener('click', ()=>{
+
+    scrollIt(header);
    });
 
 
