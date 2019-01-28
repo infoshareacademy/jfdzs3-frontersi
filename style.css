@@ -288,7 +288,7 @@ body {
 .game-container-show {
     display: block;
     margin-top: 20px;
-    background-image: url("/photos/background.jpg");
+    background-image: url("/img/background.jpg");
     background-color: #cccccc;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -416,6 +416,7 @@ body {
 
 .text__button {
     font-family: Lato;
+
 }
 
 .text__card {
