@@ -109,7 +109,6 @@ body {
     display: block;
     width: 400px;
     height: 85px;
-
     background-size: 100%, 100%;
     background-image: none;
 }
@@ -126,7 +125,7 @@ body {
 .carousel-control-next-icon:after {
     display: block;
     padding: 0;
-    margin:-20px;
+    margin:-30px;
     content: '>';
     font-size: 85px;
     font-weight: 900;
@@ -136,7 +135,8 @@ body {
 .carousel-control-prev-icon:after {
     content: '<';
     display: block;
-    margin:-20px;
+    padding:0;
+    margin:-30px;
     font-size: 85px;
     font-weight: 900;
     color: #FF8F00;
