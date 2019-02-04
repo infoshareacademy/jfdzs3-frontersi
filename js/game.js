@@ -1,4 +1,3 @@
-
 function renderDogTheCatcherGame() {
     const gameContainer = document.querySelector('#game');
     gameContainer.classList.remove('hidden');
@@ -6,4 +5,3 @@ function renderDogTheCatcherGame() {
 
     scrollIt(gameContainer);
 }
-

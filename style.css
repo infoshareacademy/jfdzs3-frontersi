@@ -5,9 +5,11 @@
     box-sizing: border-box;
     font-family: Lato;
 }
- a {
+
+a {
     cursor: pointer;
 }
+
 @media (max-width: 1800px) {
     :root {
         --ratio: 14 / 16;
@@ -61,10 +63,11 @@ body {
     font-size: 17px;
     text-transform: uppercase;
 }
+
 .active-link {
-    text-shadow: 2px 2px 6px #FFF;
-    transform: scale(1.2,1.2);
-    color: #241c14 !important;
+
+    font-weight: bold;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 770px) {
@@ -72,34 +75,37 @@ body {
         margin: 0;
     }
 }
-.active-link{
-    text-shadow: 2px 2px 6px #FFF;
-    transform: scale(1.2,1.2);
-    color: pink !important;
+
+.active-link {
+
+    font-weight: bolder;
 }
 
 /* SLIDER */
 
 .carousel-item {
-	height: 100vh;
+    height: 100vh;
 }
-.carousel-caption{
+
+.carousel-caption {
     z-index: 10;
     background-color: rgba(43, 58, 66, 0.6);
     letter-spacing: 1.1px;
     text-transform: uppercase;
     font-family: 'Mali';
-	font-size: 2.5rem;
-	font-weight: 100;
-	margin: auto;
-	padding: 20px 0;
-	text-shadow: 5px 6px 10px rgb(0, 0, 0);
-	width: 65%;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin: auto;
+    padding: 20px 0;
+    text-shadow: 5px 6px 10px rgb(0, 0, 0);
+    width: 65%;
 }
-.p-small{
-    font-size:1.6rem;
+
+.p-small {
+    font-size: 1.6rem;
 }
-.p-big{
+
+.p-big {
     font-weight: 300;
 }
 
@@ -124,7 +130,7 @@ body {
 .carousel-control-next-icon:after {
     display: block;
     padding: 0;
-    margin:0px;
+    margin: 0px;
     content: '>';
     font-size: 85px;
     font-weight: 900;
@@ -134,83 +140,88 @@ body {
 .carousel-control-prev-icon:after {
     content: '<';
     display: block;
-    padding:0;
-    margin:0px;
+    padding: 0;
+    margin: 0px;
     font-size: 85px;
     font-weight: 900;
     color: #FF8F00;
 }
+
 /* **************** SLIDE 1 ******** */
 .header__slide1 {
-	background-attachment: fixed;
-	background-image: url(img/phone.JPG);
-	background-position: center;
-	background-size: cover;
-	display: flex;
-	height: 100%;
-	width:100%;
+    background-attachment: fixed;
+    background-image: url(img/phone.JPG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 
 /* **************** SLIDE 2 ***** */
 
 .header__slide2 {
-	background-attachment: fixed;
-	background-image: url(img/wallet.JPG);
-	background-position: center;
-	background-size: cover;
-	display: flex;
-	height: 100%;
-	width:100%;
+    background-attachment: fixed;
+    background-image: url(img/wallet.JPG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 /* *********** SLIDE 3 ***** */
 
 .header__slide3 {
-	background-attachment: fixed;
-	background-image: url(img/pet.JPG);
-	background-position: center;
-	background-size: cover;
-	display: flex;
-	height: 100%;
-	width:100%;
+    background-attachment: fixed;
+    background-image: url(img/pet.JPG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 
 @media (max-width: 1024px) {
-	.carousel-caption{
-        
+    .carousel-caption {
+
         font-size: 1.5rem;
-        
+
     }
-    .p-small{
-        font-size:1.2rem;
+
+    .p-small {
+        font-size: 1.2rem;
     }
+
     .carousel-control-next-icon:after,
-    .carousel-control-prev-icon:after{
-   
-    margin:3rem;
-    font-size: 5rem;
-    font-weight: 700;  
+    .carousel-control-prev-icon:after {
+
+        margin: 3rem;
+        font-size: 5rem;
+        font-weight: 700;
     }
 }
 
-@media (max-width: 400px) and (orientation: portrait){
-	.carousel-caption{
-        
+@media (max-width: 400px) and (orientation: portrait) {
+    .carousel-caption {
+
         font-size: 0.8rem;
-     
+
     }
-    .p-small{
-        font-size:.6rem;
+
+    .p-small {
+        font-size: .6rem;
     }
+
     .carousel-control-next-icon:after,
-    .carousel-control-prev-icon:after{
-   
-    
-    font-size: 3rem;
-    margin:6rem;
- 
+    .carousel-control-prev-icon:after {
+
+
+        font-size: 3rem;
+        margin: 6rem;
+
     }
 }
 
@@ -218,17 +229,18 @@ body {
 
 
 /* a start */
-.icons_container{
+.icons_container {
     padding: 0;
-    margin:5rem;
-    margin-top:10rem;
+    margin: 5rem;
+    margin-top: 10rem;
     min-height: 39rem;
 
 
 }
+
 .section__icons {
     overflow: hidden;
-    background-image:linear-gradient(rgba(239, 240, 224, 0.9), rgba(239, 240, 224, 0.7)), url("https://images.unsplash.com/photo-1548685913-fe6678babe8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2823&q=80");
+    background-image: linear-gradient(rgba(239, 240, 224, 0.9), rgba(239, 240, 224, 0.7)), url("https://images.unsplash.com/photo-1548685913-fe6678babe8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2823&q=80");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -246,20 +258,22 @@ body {
     transform: scale(1.1);
     cursor: pointer;
 }
-.first_icon_show{
-        display: block;
-        background-image: url("img/icons/znalazłem_alt.png");
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        width: 250px;
-        height:250px;
-        position: relative;
-        left: 25px;
-        top:0;
+
+.first_icon_show {
+    display: block;
+    background-image: url("img/icons/znalazłem_alt.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 25px;
+    top: 0;
 }
-.second_icon_show{
+
+.second_icon_show {
     display: block;
     background-image: url("img/icons/mapa_alt.png");
     -webkit-background-size: cover;
@@ -267,12 +281,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 250px;
-    height:250px;
+    height: 250px;
     position: relative;
     left: 25px;
-    top:0;
+    top: 0;
 }
-.third_icon_show{
+
+.third_icon_show {
     display: block;
     background-image: url("img/icons/plakat_alt.png");
     -webkit-background-size: cover;
@@ -280,12 +295,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 250px;
-    height:250px;
+    height: 250px;
     position: relative;
     left: 25px;
-    top:0;
+    top: 0;
 }
-.fourth_icon_show{
+
+.fourth_icon_show {
     display: block;
     background-image: url("img/icons/zgubiłem_alt.png");
     -webkit-background-size: cover;
@@ -293,17 +309,21 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 250px;
-    height:250px;
+    height: 250px;
     position: relative;
     left: 25px;
-    top:0;
+    top: 0;
 }
 
 @media (max-width: 1024px) {
-    .first_icon_show, .second_icon_show, .third_icon_show, .fourth_icon_show{
-        left:0;
-        width:200px;
-        height:200px;
+
+    .first_icon_show,
+    .second_icon_show,
+    .third_icon_show,
+    .fourth_icon_show {
+        left: 0;
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -320,9 +340,11 @@ body {
     color: #F0F0DF;
     box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.5);
 }
-.form-container{
-padding:200px 0;
+
+.form-container {
+    padding: 200px 0;
 }
+
 .background {
     margin: 20px;
     font-size: 18px;
@@ -346,6 +368,10 @@ padding:200px 0;
     .parent-wrapper {
         width: 80%;
         height: 270px;
+    }
+
+    .text__info {
+        font-size: 22px !important;
     }
 
 }
@@ -429,26 +455,27 @@ padding:200px 0;
 
 /* about-us */
 
-.section__aboutus{
+.section__aboutus {
     overflow: hidden;
-    background-image:linear-gradient(rgba(239, 240, 224, 0.6), rgba(239, 240, 224, 0.6)), url("https://images.unsplash.com/photo-1529333242387-8c6c002a52d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80");
+    background-image: linear-gradient(rgba(239, 240, 224, 0.6), rgba(239, 240, 224, 0.6)), url("https://images.unsplash.com/photo-1529333242387-8c6c002a52d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
 }
+
 @media screen and (min-width: 900px) {
     #about-us {
-        padding: 100px;
+        padding: 0px;
     }
+
 }
 
 .container {
     margin: 0 auto;
     padding: 0;
-    margin:5rem;
-    margin-top:10rem;
+    margin-top: 10rem;
     min-height: 39rem;
 }
 
@@ -498,17 +525,19 @@ padding:200px 0;
 
 
 /* info */
-#info{
+#info {
     padding: 100px;
 }
-.info_container{
+
+.info_container {
     padding: 0;
-    margin:5rem;
-    margin-top:10rem;
+    margin: 5rem;
+    margin-top: 10rem;
     min-height: 39rem;
 
 
 }
+
 .info {
     margin: auto 0;
     display: block;
@@ -570,26 +599,27 @@ padding:200px 0;
 /* footer */
 
 .footer-container {
-   
+
     width: 100%;
     margin: 0;
     background-color: #2B3A42;
     color: #F0F0DF;
-    padding-top:70px;
+    padding-top: 70px;
 
 }
 
-.last-line-container{
-  
-    width:auto;
+.last-line-container {
+
+    width: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
 }
+
 .copyright {
-    margin:0;
-    padding:20px;
+    margin: 0;
+    padding: 20px;
     cursor: default;
 
 }
@@ -598,12 +628,12 @@ padding:200px 0;
     background: #2B3A42;
     font-size: 16px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 
 .footer-nav a {
     text-decoration: none;
- 
+
 }
 
 a.footer-nav,
@@ -611,29 +641,36 @@ a:visited {
     text-decoration: none;
 
 }
-.frontersi{
-    font-size:11px;
+
+.frontersi {
+    font-size: 11px;
     font-family: monospace;
     font-weight: 100;
 
 
-    
+
 }
+
 @media screen and (max-width: 920px) {
+    #info {
+        padding: 0;
+    }
+
     .footer-container {
         width: 100%;
         text-align: center;
     }
 
     .footer-nav {
-    
+
         width: 100%;
         text-align: center;
     }
-    .last-line-container{
-  
+
+    .last-line-container {
+
         justify-content: center;
-       
+
     }
 }
 

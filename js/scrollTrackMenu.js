@@ -1,5 +1,5 @@
 function trackScroll() {
-  
+
 
     const links = document.querySelectorAll('.navi');
 
@@ -21,16 +21,16 @@ function trackScroll() {
     const formScroll = form.offsetTop - 60;
 
     let scrolled = window.pageYOffset;
-    
+
     if (scrolled < functionsScroll) {
         links.forEach((link) => link.classList.remove("active-link"));
-    }else if (scrolled >= functionsScroll && scrolled < infoScroll) {
+    } else if (scrolled >= functionsScroll && scrolled < infoScroll) {
         links.forEach((link) => link.classList.remove("active-link"));
         funcLink.classList.add("active-link");
-    }else if (scrolled >= infoScroll && scrolled < aboutUsScroll) {
+    } else if (scrolled >= infoScroll && scrolled < aboutUsScroll) {
         links.forEach((link) => link.classList.remove("active-link"));
         infoLink.classList.add("active-link");
-    } else if (scrolled >=  aboutUsLink && scrolled < formScroll) {
+    } else if (scrolled >= aboutUsLink && scrolled < formScroll) {
         links.forEach((link) => link.classList.remove("active-link"));
         aboutUsLink.classList.add("active-link");
     } else if (scrolled >= formScroll) {
