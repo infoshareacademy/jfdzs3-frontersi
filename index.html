@@ -28,107 +28,300 @@
   <div id="header" class="wrapper">
     <!-- bootstrap navigation -->
     <header>
-      <div class="d-flex flex-column flex-wrap flex-md-row align-items-center p-1 px-md-3 mb-7 bg-white border-0 ">
+      <div class="d-flex fixed-top flex-column flex-wrap flex-md-row align-items-center p-1 px-md-3 mb-7 bg-white border-0">
         <a href="index.html" class="my-1 mr-md-auto"><img src="img/zgubione_horizontal.png" class="header-logo" alt="logo"></a>
         <nav class="my-2 my-md-0 mr-md-3">
-          <a id="nav1" class="p-2 text-dark main-nav-size">O nas</a>
-          <a id="nav2" class="p-2 text-dark main-nav-size">O co chodzi</a>
-          <a id="nav3" class="p-2 text-dark main-nav-size">Kontakt</a>
+            <a id="nav0" class="navi p-2 text-dark main-nav-size">Funkcje</a>
+          <a id="nav1" class="navi p-2 text-dark main-nav-size">O co chodzi</a>
+          <a id="nav2" class="navi p-2 main-nav-size" >Kim jesteśmy</a>
+        
         </nav>
-        <a id="nav4" class="btn orange-btn main-nav-size">Zapisz się</a>
+        <a id="nav4" class="navi btn orange-btn main-nav-size">Zapisz się</a>
       </div>
 
       <!-- bootstrap navigation end -->
       <!-- bootstrap slider -->
+      </header>
+      <section id="promo" class="promo">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <div class = "header__slide1">
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('img/phone.JPG')">
-            <div class="carousel-caption d-block">
-              <h3>Zgubiłeś telefon</h3>
-              <p>tutaj szanse na jego znalezienie są największe</p>
+                <div class="carousel-caption d-block">
+                  <p class="p-big">Zgubiłeś telefon</p>
+                  <p class="p-small">tutaj szanse na jego znalezienie są największe</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/wallet.JPG')">
-            <div class="carousel-caption d-block">
-              <h3>Znalazłeś portfel</h3>
-              <p>Zgłoś jego znalezienie. Dobra karma wraca</p>
+
+            <div class="carousel-item">
+              <div class = "header__slide2">
+      
+                  <div class="carousel-caption d-block">
+                    <p class="p-big">Znalazłeś portfel</p>
+                    <p class="p-small">Zgłoś jego znalezienie. Dobra karma wraca</p>
+                  </div>
+                </div>
+              </div>
+
+            <div class="carousel-item">
+              <div class = "header__slide3">
+
+                <div class="carousel-caption d-block">
+                  <p class="p-big">w 20 sekund</p>
+                  <p class="p-small">zgłoś zaginięcie lub znalezienie czworonoga</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/pet.JPG')">
-            <div class="carousel-caption d-block">
-              <h3>w 20 sekund</h3>
-              <p>zgłoś zaginięcie lub znalezienie czworonoga</p>
-            </div>
-          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </header>
+      </section>
+
     <!-- bootstrap slider end -->
-    <section class="section__icons">
+
+
+
+
+
+    <section id="main-func" class="section__icons">
       <!-- KACPER ikony funkcyjne -->
 
-      <div class="container">
+      <div class="icons_container">
+          <p class="text__info">Odkryj najwazniejsze funcje naszej aplikacji: </p>
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3">
-            <a href="img/icons/znalazłem_alt.png">
-              <img class="icons__img" src="img/icons/znalazłem-new.png" alt="ZNALAZŁEM">
-            </a>
+          <div class="col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3 ">
+            
+              <img class="feature_icon icons__img" src="img/icons/znalazłem-new.png" alt="ZNALAZŁEM"/>
+              <div id="altIco1" class="hidden"></div>
+            
+          </div>
+          <div class=" col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3">
+           
+              <img class="feature_icon icons__img" src="img/icons/mapa-new.png" alt="MAPA">
+              <div id="altIco2" class="hidden"></div>
+         
+          </div>
+          <div class=" col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3">
+          
+              <img class=" feature_icon icons__img" src="img/icons/plakat-new.png" alt="GENERUJ PLAKAT">
+              <div id="altIco3" class="hidden"></div>
+           
           </div>
           <div class="col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3">
-            <a href="img/icons/mapa_alt.png">
-              <img class="icons__img" src="img/icons/mapa-new.png" alt="MAPA">
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3">
-            <a href="img/icons/plakat_alt.png">
-              <img class="icons__img" src="img/icons/plakat-new.png" alt="GENERUJ PLAKAT">
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6	col-lg-3 col-xl-3">
-            <a href="img/icons/zgubiłem_alt.png">
-              <img class="icons__img" src="img/icons/zgubiłem-new.png" alt="ZGUBIŁEM">
-            </a>
+            
+              <img class="feature_icon icons__img" src="img/icons/zgubiłem-new.png" alt="ZGUBIŁEM">
+              <div id="altIco4" class="hidden"></div>
+           
           </div>
         </div>
       </div>
 
     </section>
-
-    <section id="form">
-
-      <!-- SONIA formularz -->
-      <div class="parent-wrapper">
-        <span class="background"></span>
-        <div class="subscribe-wrapper">
-          <h4 class="form-info">Zapisz się, a poinformujemy Cię, kiedy nasza strona wystartuje!</h4>
-          <input type="email" name="email" class="subscribe-input" placeholder="Wpisz adres e-mail">
-          <div class="submit-btn">Wyślij</div>
+    <section id="info" class="container-fluid">
+        <!-- RADEK o aplikacji/informacje dodatkowe -->
+        <div class="info_container">
+        <h2 class="text__info">Nasza Aplikacja pozwala na:</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingOne">
+                  <h2 class="mb-0">
+                    <i class="fas fa-sign-in-alt fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      <strong class="text__button">Darmową rejestrację</strong>
+                    </button>
+                  </h2>
+                </div>
+  
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__card text-white">Wystarczy podać swój adres e-mail aby się zarejestrować,
+                      swój profil możesz uzupełnić w każdej chwili, dzięki prostemu kreatorowi nie zajmie Ci to więcej
+                      niż
+                      5 minut.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingTwo">
+                  <h2 class="mb-0">
+                    <i class="fas fa-scroll fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      <strong class="text__button">Tworzenie ogłoszeń</strong>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__card text-white">Dzięki nam w łatwy i szybki sposób stworzysz swoje ogłoszenie wraz z
+                      plakatem
+                      dotyczęczy zagubinej rzeczy bądź zwierzak, będzie on widoczny dla wszystkich naszych użytkowników.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingThree">
+                  <h2 class="mb-0">
+                    <i class="fas fa-search fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      <strong class="text__button">Precyzyjne wyszukiwanie</strong>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__button text-white">Jeśli interesujcie Ci szukanie zaginionych przedmiotów bądź
+                      zwierząt, pomoże Ci w tym nasza
+                      szybka i precyzyjna wyszukiwarka, która umożliwi znalezienie danego ogłoszenia lub użytkownika. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingFour">
+                  <h2 class="mb-0">
+                    <i class="fab fa-facebook fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                      aria-expanded="true" aria-controls="collapseFour">
+                      <strong class="text__button">Udostępnianie w social media</strong>
+                    </button>
+                  </h2>
+                </div>
+  
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__card text-white">Dzięki wbudowanym wtyczką w łatwy i szybki spoób możesz powiadomić o
+                      zbugie swoich znajomych np. na Facebook-u </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingFive">
+                  <h2 class="mb-0">
+                    <i class="fas fa-map-marked-alt fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                      aria-expanded="false" aria-controls="collapseFive">
+                      <strong class="text__button">Oznaczanie na mapie</strong>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text_card text-white">Tworząc ogłoszenia dajmy Ci możliwość oznaczenia miejsc gdzie doszło
+                      do zguby,
+                      dzięki temu łatwiej będzie można zogranizować poszukiwania. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingSix">
+                  <h2 class="mb-0">
+                    <i class="far fa-comments fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                      aria-expanded="false" aria-controls="collapseSix">
+                      <strong class="text__button">Szybką komunikację</strong>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__card text-white">Wydowany komunikator da Ci możliwośc komunikacji
+                      z innym użytkownikami lub znajomymi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingSeven">
+                  <h2 class="mb-0">
+                    <i class="fas fa-mobile-alt fa-spin fa-sm"></i>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven"
+                      aria-expanded="true" aria-controls="collapseSeven">
+                      <strong class="text__button">Korzystać z mobilnej wersji</strong>
+                    </button>
+                  </h2>
+                </div>
+  
+                <div id="collapseSeven" class="collapse " aria-labelledby="headingSeven" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__card text-white">Nasz aplikacja działa również na smartfonach oraz innych
+                      urządzeniach mobilnych.
+                      Możesz korzystać z naszych usług gdzie tylko chcesz.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingEight">
+                  <h2 class="mb-0">
+                    <i class="far fa-money-bill-alt fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight"
+                      aria-expanded="false" aria-controls="collapseEight">
+                      <strong class="text__button">Niskie koszty ogłoszeń</strong>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                  <div class="card-body text-white">
+                    <p class="text__card text-white">Zależy Ci aby towje ogłoszenie było widoczne na pierwszych stronach?
+                      Za niewielką opłatą dajemy Ci taką możliwść, aby twoje ogłoszenie zobaczył każdy zainteresowany
+                      użytkownik.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg text-center border-0">
+                <div class="card border-0" id="headingNine">
+                  <h2 class="mb-0">
+                    <i class="far fa-smile-wink fa-sm"></i>
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
+                      aria-expanded="false" aria-controls="collapseNine">
+                      <strong class="text__button">Znalezienie twojej zguby</strong>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p class="text__card text-white">Nasz zespół dokłada wszelkich starań aby każda zguba wróciła do
+                      właściciela, wciąż dbamy o rozwój naszej apilkacj i dokładamy wszelki starań,
+                      aby wasze ogłaszenia trafiały jak najszerszego grona odbiorców.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- GAME  -->
-      <div id="game" class="hidden game-container">
+  
+      </section>
 
-      </div>
-    </section>
-
-    <section id="about-us">
+    <section id="about-us" class="section__aboutus">
       <div class="container">
         <h2 class=" text__info pad-bot">O Nas</h2>
         <div class="row">
@@ -194,200 +387,26 @@
       </div>
     </section>
 
+   
 
-    </section>
+  <section id="form">
 
-    <section id="info" class="container-fluid">
-      <!-- RADEK o aplikacji/informacje dodatkowe -->
-      <h2 class="text__info">Nasza Aplikacja pozwala na:</h2>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="accordion" id="accordionExample">
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingOne">
-                <h2 class="mb-0">
-                  <i class="fas fa-sign-in-alt fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    <strong class="text__button">Darmową rejestrację</strong>
-                  </button>
-                </h2>
-              </div>
-
-              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__card text-white">Wystarczy podać swój adres e-mail aby się zarejestrować,
-                    swój profil możesz uzupełnić w każdej chwili, dzięki prostemu kreatorowi nie zajmie Ci to więcej
-                    niż
-                    5 minut.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingTwo">
-                <h2 class="mb-0">
-                  <i class="fas fa-scroll fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                    <strong class="text__button">Tworzenie ogłoszeń</strong>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__card text-white">Dzięki nam w łatwy i szybki sposób stworzysz swoje ogłoszenie wraz z
-                    plakatem
-                    dotyczęczy zagubinej rzeczy bądź zwierzak, będzie on widoczny dla wszystkich naszych użytkowników.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingThree">
-                <h2 class="mb-0">
-                  <i class="fas fa-search fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
-                    <strong class="text__button">Precyzyjne wyszukiwanie</strong>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__button text-white">Jeśli interesujcie Ci szukanie zaginionych przedmiotów bądź
-                    zwierząt, pomoże Ci w tym nasza
-                    szybka i precyzyjna wyszukiwarka, która umożliwi znalezienie danego ogłoszenia lub użytkownika. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="accordion" id="accordionExample">
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingFour">
-                <h2 class="mb-0">
-                  <i class="fab fa-facebook fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
-                    aria-expanded="true" aria-controls="collapseFour">
-                    <strong class="text__button">Udostępnianie w social media</strong>
-                  </button>
-                </h2>
-              </div>
-
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__card text-white">Dzięki wbudowanym wtyczką w łatwy i szybki spoób możesz powiadomić o
-                    zbugie swoich znajomych np. na Facebook-u </p>
-                </div>
-              </div>
-            </div>
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingFive">
-                <h2 class="mb-0">
-                  <i class="fas fa-map-marked-alt fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
-                    aria-expanded="false" aria-controls="collapseFive">
-                    <strong class="text__button">Oznaczanie na mapie</strong>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text_card text-white">Tworząc ogłoszenia dajmy Ci możliwość oznaczenia miejsc gdzie doszło
-                    do zguby,
-                    dzięki temu łatwiej będzie można zogranizować poszukiwania. </p>
-                </div>
-              </div>
-            </div>
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingSix">
-                <h2 class="mb-0">
-                  <i class="far fa-comments fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
-                    aria-expanded="false" aria-controls="collapseSix">
-                    <strong class="text__button">Szybką komunikację</strong>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__card text-white">Wydowany komunikator da Ci możliwośc komunikacji
-                    z innym użytkownikami lub znajomymi.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="accordion" id="accordionExample">
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingSeven">
-                <h2 class="mb-0">
-                  <i class="fas fa-mobile-alt fa-spin fa-sm"></i>
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven"
-                    aria-expanded="true" aria-controls="collapseSeven">
-                    <strong class="text__button">Korzystać z mobilnej wersji</strong>
-                  </button>
-                </h2>
-              </div>
-
-              <div id="collapseSeven" class="collapse " aria-labelledby="headingSeven" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__card text-white">Nasz aplikacja działa również na smartfonach oraz innych
-                    urządzeniach mobilnych.
-                    Możesz korzystać z naszych usług gdzie tylko chcesz.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingEight">
-                <h2 class="mb-0">
-                  <i class="far fa-money-bill-alt fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight"
-                    aria-expanded="false" aria-controls="collapseEight">
-                    <strong class="text__button">Niskie koszty ogłoszeń</strong>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
-                <div class="card-body text-white">
-                  <p class="text__card text-white">Zależy Ci aby towje ogłoszenie było widoczne na pierwszych stronach?
-                    Za niewielką opłatą dajemy Ci taką możliwść, aby twoje ogłoszenie zobaczył każdy zainteresowany
-                    użytkownik.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card bg text-center border-0">
-              <div class="card border-0" id="headingNine">
-                <h2 class="mb-0">
-                  <i class="far fa-smile-wink fa-sm"></i>
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
-                    aria-expanded="false" aria-controls="collapseNine">
-                    <strong class="text__button">Znalezienie twojej zguby</strong>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p class="text__card text-white">Nasz zespół dokłada wszelkich starań aby każda zguba wróciła do
-                    właściciela, wciąż dbamy o rozwój naszej apilkacj i dokładamy wszelki starań,
-                    aby wasze ogłaszenia trafiały jak najszerszego grona odbiorców.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <!-- SONIA formularz -->
+      <div class="form-container">
+      <div class="parent-wrapper">
+        <span class="background"></span>
+        <div class="subscribe-wrapper">
+          <h4 class="form-info">Zapisz się, a poinformujemy Cię, kiedy nasza strona wystartuje!</h4>
+          <input type="email" name="email" class="subscribe-input" placeholder="Wpisz adres e-mail">
+          <div class="submit-btn">Wyślij</div>
         </div>
       </div>
+    </div>
+      <!-- GAME  -->
+      <div id="game" class="hidden game-container">
 
+      </div>
     </section>
-
-  </div>
-  </div>
-
-  </div>
-
   <footer class="footer-container" id="footer">
     
 
@@ -410,7 +429,13 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <script src="/js/script.js" />
+    <script src='js/emailValidation.js'></script>
+    <script src="js/game.js"></script>
+    <script src="js/smoothlyMenu.js"></script>
+    <script src="js/scrollTrackMenu.js"></script>
+    <script src="js/altIconsRender.js"></script>
+  <script src="/js/script.js"></script>
+  
   </body>
 
 </html>
