@@ -544,7 +544,7 @@ body {
   .card-flip,
   .front,
   .back {
-    width: 320px;
+    width: 200px;
     height: 480px;
   }
   
@@ -564,7 +564,12 @@ body {
     position: relative;
     width: 12rem; height: 15rem;
     perspective: 30rem;
-    background-image: linear-gradient(rgba(239, 240, 224, 0.6), rgba(239, 240, 224, 0.6)), url("https://images.unsplash.com/photo-1529333242387-8c6c002a52d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80")
+    overflow: hidden;
+    
+  }
+  .card-border{
+    background-color: #FF8F00;
+    color: #3F5866;
   }
   
   .front {
@@ -575,6 +580,7 @@ body {
   .back {
     transform: rotateY(180deg);
   }
+    
 
 
 
@@ -583,7 +589,7 @@ body {
 
     text-align: justify;
     font-family: Lato;
-    background-image: linear-gradient(rgba(239, 240, 224, 0.6), rgba(239, 240, 224, 0.6)), url("https://images.unsplash.com/photo-1529333242387-8c6c002a52d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80")
+    overflow: hidden;
 }
 
 .aboutUsPhoto {
