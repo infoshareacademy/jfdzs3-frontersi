@@ -11,9 +11,7 @@
         scrollTopLink.classList.remove('backtop-show');
       }
     }
-  
-    
-  
+
     window.addEventListener('scroll', scrollTracking);
   })();
 

@@ -1,8 +1,6 @@
 function trackScroll() {
 
-
     const links = document.querySelectorAll('.navi');
-
 
     const mainFunctions = document.getElementById("main-func");
     const funcLink = document.querySelector('#nav0');
