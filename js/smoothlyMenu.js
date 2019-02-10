@@ -1,6 +1,11 @@
 const nav1 = document.querySelector('#nav1');
 const nav2 = document.querySelector('#nav2');
 const nav0 = document.querySelector('#nav0');
+const nav3 = document.querySelector('#nav3');
+const nav4 = document.querySelector('#nav4');
+const nav5 = document.querySelector('#nav5');
+const nav6 = document.querySelector('#nav6');
+
 
 const aboutUs = document.querySelector('#about-us');
 const info = document.querySelector('#info');
@@ -9,23 +14,29 @@ const form = document.querySelector('#form');
 const header = document.querySelector('#header');
 
 nav0.addEventListener('click', () => {
-    scrollIt(functions);
+    scrollElement(functions);
 });
 
 nav1.addEventListener('click', () => {
-    scrollIt(info);
+    scrollElement(info);
 });
 
 nav2.addEventListener('click', () => {
-    scrollIt(aboutUs);
+    scrollElement(aboutUs);
+});
+
+nav3.addEventListener('click', () => {
+    scrollElement(form);
 });
 
 nav4.addEventListener('click', () => {
-    scrollIt(form);
+    scrollElement(form);
 });
+
 nav5.addEventListener('click', () => {
-    scrollIt(aboutUs);
+    scrollElement(aboutUs);
 });
+
 nav6.addEventListener('click', () => {
-    scrollIt(header);
+    scrollElement(header);
 });
