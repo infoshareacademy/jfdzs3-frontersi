@@ -3,5 +3,5 @@ function renderDogTheCatcherGame() {
     gameContainer.classList.remove('hidden');
     gameContainer.classList.add('game-container-show');
 
-    scrollIt(gameContainer);
+    scrollElement(gameContainer);
 }
