@@ -756,3 +756,27 @@ a:visited {
         min-height: 600px;
     }
 }
+body.cookiewarning {
+	padding-bottom: 15em;
+}
+body div.cookiewarning {
+	display: none;
+}
+body.cookiewarning div.cookiewarning {
+padding: 1em;	
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+}
+
+body .removecookie {
+	display: inline-block;
+}
+
+body.cookiewarning .removecookie {
+	display: none;
+}
