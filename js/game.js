@@ -67,6 +67,7 @@ class GameItem {
     }
     startGame() {
       this.inProgress = true;
+      scrollElement(this.gameContainer);
       this.startBtn.innerText = 'Stop Game';
       this.showHeader.classList.add('hidden');
       this.itemsInterval = setInterval(() => {
@@ -76,6 +77,7 @@ class GameItem {
     }
     stopGame() {
       this.inProgress = false;
+      scrollElement(this.gameContainer);
       this.startBtn.innerText = 'Start Game';
       this.showHeader.classList.remove('hidden');
       clearInterval(this.itemsInterval);
