@@ -1,74 +1,86 @@
-.game-container{
-    display:flex;
-      padding:100px;
-      height:100vh;
-      padding-top:20px;
-      background:lightgray;
-      justify-content: flex-end;
-      flex-flow:row;
-      display: flex;
-      align-items: flex-start;
-      flex-wrap: nowrap;
-      position:relative;
-      background-image: url("img/background.jpg");
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-   .main_board{
-    padding:10px;
-    margin-top:100px;
-    text-align:center;
-    background:lightblue;
-    border: 4px double green;
-    width:200px;
-    font-size: 12px;
-    font-family: monospace;
-    font-weight: bold;
-    letter-spacing:1.4px;
-    border-radius:5px;
-   }
-   .btns{
-     padding: 6px;
-     margin:2px;
-     width:120px;
-  }
-  
-    .img {
-      display:block;
-       position:absolute;
-       top:-60px;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: contain;
-      transition: height 350ms ease-in-out;
-    }
-    .wallet{
-      background-image: url("https://i.postimg.cc/W1FFKmN5/ZxSAHgx.png");
-      width: 25px;
-      height: 25px;
-    }
-    .phone{
-      background-image: url("https://i.postimg.cc/wTbR04pt/xUqGVW0.png");
-      width: 23px;
-      height: 45px;
-    }
-    .keys{
-      background-image: url("https://i.postimg.cc/MpCM8cXq/mcc4XWa.png");
-      width:25px;
-      height:30px;
-    }
-    
-   .moveItem{
-      transform:translateY(100vh);
-      transition-delay: 10s;
-      transition: all 5s linear;
-   }
-   
-    .dogTheCatcher{
-        width: 80px;
-      height: 85px;
-      top:90vh;
-    }
+.scroll-off {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.game-container {
+  display: flex;
+  padding: 100px;
+  margin: 0 25px;
+  height: 100vh;
+  padding-top: 20px;
+  background: lightgray;
+  justify-content: flex-end;
+  flex-flow: row;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  position: relative;
+  background-image: url("img/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 190vh;
+}
+
+.main_board {
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  background: lightblue;
+  border: 4px double green;
+  width: 200px;
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  border-radius: 5px;
+}
+
+.btns {
+  padding: 6px;
+  margin: 2px;
+  width: 120px;
+}
+
+.img {
+  display: block;
+  position: absolute;
+  top: -60px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  transition: height 350ms ease-in-out;
+}
+
+.wallet {
+  background-image: url("https://i.postimg.cc/W1FFKmN5/ZxSAHgx.png");
+  width: 25px;
+  height: 25px;
+}
+
+.phone {
+  background-image: url("https://i.postimg.cc/wTbR04pt/xUqGVW0.png");
+  width: 23px;
+  height: 45px;
+}
+
+.keys {
+  background-image: url("https://i.postimg.cc/MpCM8cXq/mcc4XWa.png");
+  width: 25px;
+  height: 30px;
+}
+
+.moveItem {
+  transform: translateY(100vh);
+  transition-delay: 10s;
+  transition: all 5s linear;
+}
+
+.dogTheCatcher {
+  width: 80px;
+  height: 85px;
+  top: 90vh;
+}

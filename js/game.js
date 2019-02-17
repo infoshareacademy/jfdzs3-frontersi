@@ -34,12 +34,14 @@ class GameItem {
   
   class Game {
     constructor() {
+      this.audio = new Audio('game.wav');
       this.inProgress = false;
       this.gameContainer = document.querySelector('#game');
       this.showHeader = document.querySelector('#show-header');
+      this.showBackTop = document.querySelector('.backtop');
       this.imgDog = document.querySelector('.dogTheCatcher');
       this.items = [];
-      this.init()
+      this.init();
       this.addEventListeners();
     }
     renderGame(){
@@ -67,9 +69,13 @@ class GameItem {
     }
     startGame() {
       this.inProgress = true;
+      this.audio.play();
+      this.audio.loop= true;
       scrollElement(this.gameContainer);
+      document.body.classList.add("scroll-off");
       this.startBtn.innerText = 'Stop Game';
       this.showHeader.classList.add('hidden');
+      this.showBackTop.classList.add('hidden');
       this.itemsInterval = setInterval(() => {
         this.items.push(new GameItem());
       }, 100);
@@ -77,9 +83,13 @@ class GameItem {
     }
     stopGame() {
       this.inProgress = false;
+      this.audio.pause();
+      this.audio.currentTime = 0;
       scrollElement(this.gameContainer);
+      document.body.classList.remove("scroll-off");
       this.startBtn.innerText = 'Start Game';
       this.showHeader.classList.remove('hidden');
+      this.showBackTop.classList.remove('hidden');
       clearInterval(this.itemsInterval);
       this.items.forEach(item => item.delete());
       this.items = [];
