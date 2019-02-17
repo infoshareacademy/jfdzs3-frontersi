@@ -15,6 +15,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- CSS STYLE -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700i&amp;subset=latin-ext" rel="stylesheet">
   <!-- fontawesome -->
@@ -25,11 +26,10 @@
 </head>
 
 <body>
-  <div id="header" class="wrapper">
+  <div id="header"class="wrapper">
     <!-- bootstrap navigation -->
     <header>
-      <div
-        class="d-flex fixed-top flex-column flex-wrap flex-md-row align-items-center p-1 px-md-3 mb-7 bg-white border-0">
+      <div id="show-header" class="d-flex fixed-top flex-column flex-wrap flex-md-row align-items-center p-1 px-md-3 mb-7 bg-white border-0 container ">
         <a href="index.html" class="my-1 mr-md-auto"><img src="img/zgubione_horizontal.png" class="header-logo"
             alt="logo"></a>
         <nav class="my-2 my-md-0 mr-md-3">
@@ -517,6 +517,17 @@
       </div>
       <!-- GAME  -->
       <div id="game" class="hidden game-container">
+          <div class="main_board">
+              <button class="btns startTheGameBtn">START THE GAME</button>
+              <button class="btns">INSTRUCTION</button>
+              <div class="stats">
+                      <div class="life">Life: 3</div>
+                      <div class="score">Score: 0</div>
+      
+                  </div>
+              </div>
+              <img class="img dogTheCatcher" src="https://i.postimg.cc/fW2s16gv/dog.png" />
+      
 
       </div>
 
@@ -536,7 +547,7 @@
           <a id="nav6">MENU</a>
         </div>
       </div>
-  </div>
+ 
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -556,7 +567,7 @@
   <script src="js/scrollTrackMenu.js"></script>
   <script src="js/altIconsRender.js"></script>
   <script src="/js/script.js"></script>
-
+</div>
 </body>
 
 </html>

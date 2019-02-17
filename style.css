@@ -10,6 +10,7 @@ a {
     cursor: pointer;
 }
 
+
 @media (max-width: 1800px) {
     :root {
         --ratio: 14 / 16;
@@ -27,7 +28,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1680px;
+    max-width: 1680px !important;
     width: 100%;
     margin: 0 auto;
 }
@@ -109,11 +110,15 @@ body {
 }
 
 /* SLIDER */
-
-.carousel-item {
-    height: 100vh;
+.promo{
+    margin-top:100px;
 }
-
+.carousel-item {
+    height: 90vh;
+}
+.carousel-inner{
+ max-height:1200px;
+}
 .carousel-caption {
     z-index: 10;
     background-color: rgba(43, 58, 66, 0.6);
@@ -472,7 +477,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none!important;
 }
 
 .my-red-alert {
@@ -500,10 +505,8 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    padding: 0;
-    margin-top: 10rem;
-    min-height: 39rem;
+    max-width: 1680px;
+
 }
 
 .row {
