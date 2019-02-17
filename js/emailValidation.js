@@ -20,6 +20,9 @@ submitBtn.addEventListener('click', () => {
 
         return false;
     } else {
-        renderDogTheCatcherGame();
+       (function (){
+        dogTheCatcherGameStart.renderGame();
+        dogTheCatcherGameStart.init();
+        })();
     }
 });

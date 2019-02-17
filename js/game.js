@@ -1,15 +1,10 @@
-function renderDogTheCatcherGame() {
-    const gameContainer = document.querySelector('#game');
-    gameContainer.classList.remove('hidden');
-    gameContainer.classList.add('game-container-show');
 
-    scrollElement(gameContainer);
-}
 
 class GameItem {
     constructor() {
-      const container = document.querySelector('.game-container');
+     
       const element = document.createElement('div');
+      this.container = document.querySelector('.game-container');
       this.element = element;
       element.classList.add('img');
       element.classList.add(this.getRandomElementType());
@@ -17,13 +12,13 @@ class GameItem {
       element.style.left = `${this.getRandomPos()}px`;
       element.style.transition = 'transform' + this.getRandomInt(850, 10000) + ' ms linear';
   
-      container.appendChild(element);
+      this.container.appendChild(element);
       setTimeout(() => {
         element.classList.add('moveItem');
       }, 100);
     }
     getRandomPos() {
-      return Math.floor(Math.random() * 1200) + 1;
+      return Math.floor(Math.random() * this.container.clientWidth) - 5;
     }
     getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -40,11 +35,17 @@ class GameItem {
   class Game {
     constructor() {
       this.inProgress = false;
+      this.gameContainer = document.querySelector('#game');
       this.showHeader = document.querySelector('#show-header');
       this.imgDog = document.querySelector('.dogTheCatcher');
       this.items = [];
       this.init()
       this.addEventListeners();
+    }
+    renderGame(){
+      this.gameContainer.classList.remove('hidden');
+      this.gameContainer.classList.add('game-container-show');
+      scrollElement(this.gameContainer);
     }
     init() {
       this.startBtn = document.querySelector('.startTheGameBtn');
@@ -87,4 +88,4 @@ class GameItem {
       // jeśli tak to: usuwamy element, zwiększamy wynik graca (this.points += 100)
     }
   }
-  new Game();
+  const dogTheCatcherGameStart = new Game();
