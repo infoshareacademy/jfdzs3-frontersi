@@ -518,8 +518,37 @@
       <!-- GAME  -->
       <div id="game" class="hidden game-container">
 
-      </div>
+          <button type="button" class="btn btn-info btn-lg" id="instructionBtn" style = color:#2B3A42;background-color:#FF8F00;display:flex;justify-content:center  >Instrukcja</button>
 
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Instrukcja do Gry</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Witaj.</p> 
+                  <p>Dziękuje że do nas dołączyłeś. W ramach podziękowania zapraszamy do zagrania w mini grę "Dog The Cacher".
+                    Celem gry jest złapanie przez naszego Bohater o imienu "Zgubek"<img src = "img/dog.png"; style = height:25px>, jak nawiększej ilości zgubiony przedmiotów którę  spadają z nieba <img src="img/keys.png"; style = height:25px>,<img src="img/smartphone.png"; style = height:25px>,<img src ="img/wallet.png"; style = height:25px>. Pieskiem sterujemy za pomocą myszki, przesuwając kursor w lewo albo w prawo.
+                    Pamiętaj że masz tylko trzy życia <img src = "img/heart.png"; style = height:25px>, każda niezłapa zguba odbiera je. 3 stracone serca kończą naszą grę.</p>
+                  <p>Powodzenia!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+
+        
+
+      </div>
     </section>
     <footer class="footer-container" id="footer">
 
