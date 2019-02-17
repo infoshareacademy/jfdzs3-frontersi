@@ -5,3 +5,9 @@ function renderDogTheCatcherGame() {
 
     scrollElement(gameContainer);
 }
+
+$(document).ready(function(){
+    $("#instructionBtn").click(function(){
+      $("#myModal").modal();
+    });
+  });
