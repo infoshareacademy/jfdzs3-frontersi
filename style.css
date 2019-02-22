@@ -507,6 +507,21 @@ body {
 
 }
 
+
+@media screen and (max-width: 360px){
+    .about-us {
+        margin-left: 23%;
+        
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px){
+    .about-us {
+        padding-left: 35%;
+        
+    }
+}
+
 .container {
     max-width: 1680px;
 
