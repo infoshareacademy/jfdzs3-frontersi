@@ -79,7 +79,7 @@ class GameItem {
       this.itemsInterval = setInterval(() => {
         this.items.push(new GameItem());
       }, 100);
-      this.collisionInterval = setInterval(this.detectCollision, 100);
+      this.collisionInterval = setInterval(this.detectCollision.bind(this), 100);
     }
     stopGame() {
       this.inProgress = false;
@@ -96,8 +96,39 @@ class GameItem {
       clearInterval(this.collisionInterval);
     }
     detectCollision() {
-      // for po wszystkich elementach i sprawdzanie czy granice elementu nachodzą na granice psa
-      // jeśli tak to: usuwamy element, zwiększamy wynik graca (this.points += 100)
+       // for po wszystkich elementach i sprawdzanie czy granice elementu nachodzą na granice psa
+    // console.log(this.items);
+    // let a =  this.items.offset().top;  
+    for (let i = 0; i <= this.items.length; i++) {
+      let thatItem = this.items[i]['element'];
+      let thisDog = this.imgDog;
+
+      var x1 = thatItem.offsetLeft;
+      var y1 = thatItem.offsetTop;
+      var h1 = thatItem.offsetHeight;
+      var w1 = thatItem.offsetWidth;
+      var b1 = y1 + h1;
+      console.log(b1);
+      var r1 = x1 + w1;
+      var x2 = thisDog.offsetLeft;
+      console.log(x2);
+      var y2 = thisDog.offsetTop;
+      var h2 = thisDog.offsetHeight;
+      var w2 = thisDog.offsetWidth;
+      var b2 = y2 + h2;
+      var r2 = x2 + w2;
+
+      if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) {
+        return false;
+      } else {
+        return true;
+        thatItem.remove();
+      }
     }
+
+
+    // jeśli tak to: usuwamy element, zwiększamy wynik graca (this.points += 100)
   }
+}
+
   const dogTheCatcherGameStart = new Game();
